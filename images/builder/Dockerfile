@@ -15,20 +15,12 @@ RUN export ARCH="$(uname -m)" && \
     bzip2 \
     git \
     patch && \
-    # Create CICD Group
-    groupadd --gid ${GROUP_ID} ${CICD_GROUP} && \
-    # Adduser Builder
-    useradd -b /home --create-home --gid ${GROUP_ID} --groups wheel \
-    --uid ${BUILD_ID} --comment "User for Building" ${BUILD_USER} && \
-    echo "${BUILD_USER}    ALL=NOPASSWD: ALL" > /etc/sudoers.d/user-${BUILD_USER} && \
     curl -o /tmp/anaconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-${ARCH}.sh && \
     chmod +x /tmp/anaconda.sh && \
     /bin/bash /tmp/anaconda.sh -f -b -p /opt/conda && \
     rm -f /tmp/anaconda.sh && \
-    $CONDA_HOME/bin/conda install -y conda-build && \
-    chown -R ${BUILD_USER}:${CICD_GROUP} ${CONDA_HOME}
+    $CONDA_HOME/bin/conda install -y conda-build
 
-USER ${BUILD_USER}
 RUN export PATH="${PATH}" && \
     echo "PATH="${PATH}"" >> ${HOME}/.profile && \
     $CONDA_HOME/bin/conda config --system --add envs_dirs $CONDA_HOME/envs && \
