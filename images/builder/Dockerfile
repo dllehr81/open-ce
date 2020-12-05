@@ -43,6 +43,6 @@ RUN export PATH="${PATH}" && \
     echo ". $CONDA_HOME/etc/profile.d/conda.sh" >> ${HOME}/.bashrc && \
     echo "conda activate base" >> ${HOME}/.bashrc
     
-
+ADD .bazelrc /etc/bazel.bazelrc
     
     
