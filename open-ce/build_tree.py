@@ -396,8 +396,8 @@ class BuildTree(): #pylint: disable=too-many-instance-attributes
         if clone_successful:
             patches = package.get(env_config.Key.patches.name, []) if package else []
             if len(patches) > 0:
-                os.chdir(repo_dir)
                 open_ce_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+                os.chdir(repo_dir)
                 for patch in patches:
                     if os.path.isabs(patch) and os.path.exists(patch):
                         patch_file = patch
