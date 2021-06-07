@@ -1,5 +1,5 @@
 packages:
-  - feedstock : https://github.ibm.com/zDataAndAI/aws-c-common-feedstock
+  - feedstock : git@github.ibm.com/zDataAndAI/aws-c-common-feedstock.git
   - feedstock : https://github.ibm.com/zDataAndAI/aws-checksums-feedstock
   - feedstock : https://github.ibm.com/zDataAndAI/aws-c-event-stream-feedstock
   - feedstock : https://github.ibm.com/zDataAndAI/aws-sdk-cpp-feedstock
