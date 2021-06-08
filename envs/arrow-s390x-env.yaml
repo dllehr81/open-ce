@@ -1,22 +1,22 @@
 packages:
   - feedstock : git@github.ibm.com:zDataAndAI/aws-c-common-feedstock.git
-  - feedstock : https://github.ibm.com/zDataAndAI/aws-checksums-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/aws-c-event-stream-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/aws-sdk-cpp-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/flatbuffers-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/rapidjson-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/orc-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/utf8proc-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/uriparser-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/re2-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/abseil-cpp-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/grpc-cpp-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/gflags-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/glog-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/double-conversion-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/libevent-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/boost-cpp-feedstock
+  - feedstock : git@github.ibm.com:zDataAndAI/aws-checksums-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/aws-c-event-stream-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/aws-sdk-cpp-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/flatbuffers-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/rapidjson-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/orc-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/utf8proc-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/uriparser-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/re2-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/abseil-cpp-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/grpc-cpp-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/gflags-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/glog-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/double-conversion-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/libevent-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/boost-cpp-feedstock.git
     git_tag: travis1
-  - feedstock : https://github.ibm.com/zDataAndAI/thrift-cpp-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/arrow-cpp-feedstock
-  - feedstock : https://github.ibm.com/zDataAndAI/pyarrow-feedstock
+  - feedstock : git@github.ibm.com:zDataAndAI/thrift-cpp-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/arrow-cpp-feedstock.git
+  - feedstock : git@github.ibm.com:zDataAndAI/pyarrow-feedstock.git
