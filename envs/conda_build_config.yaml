@@ -170,8 +170,6 @@ plac:
   - 0.9.6
 preshed:
   - 3.0.*
-protobuf:
-  - 3.11.2
 psutil:
   - 5
 pytest:
